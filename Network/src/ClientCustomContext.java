@@ -17,6 +17,7 @@ import java.util.List;
  */
 public class ClientCustomContext {
     public static void main(String[] args) throws Exception {
+
         CloseableHttpClient httpclient = HttpClients.createDefault();
 
         try{
